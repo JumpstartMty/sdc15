@@ -1,0 +1,147 @@
+html, body {
+  height: 100%; }
+
+header {
+  color: #F7D914;
+  height: auto; }
+
+#logo img {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+#intro {
+  /*background-color: #6D729C;*/
+  background-image: url("img/party3.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+  padding-bottom: 50px; }
+
+.browser {
+  background-color: #FFF;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding-bottom: 30px; }
+
+.crossbar {
+  border-bottom: 1px solid #ccc;
+  padding: 7px 11px; }
+
+ul {
+  list-style: none; }
+
+ul li {
+  border-radius: 100%;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin-bottom: 0; }
+
+.dots {
+  margin-bottom: 0; }
+
+.red {
+  background-color: #e34c24; }
+
+.yellow {
+  background-color: #e4d735; }
+
+.green {
+  background-color: #2ad665; }
+
+#action-btns a {
+  display: block;
+  margin: 0 auto; }
+
+#intro-msg {
+  padding: 15px 50px; }
+
+#intro-msg h1 {
+  text-align: center; }
+
+#intro-msg img {
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+  padding-top: 10px; }
+
+#intro-msg p {
+  font-size: 1.1em; }
+
+#agenda section > h2 {
+  text-align: center; }
+
+.date p {
+  margin-bottom: 0;
+  text-align: center; }
+
+.date p:last-child {
+  margin-top: -8px; }
+
+.txt-center {
+  text-align: center; }
+
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid transparent;
+  -webkit-box-shadow: -1px -1px 0 0 rgba(0, 0, 0, 0.3);
+  box-shadow: -1px -1px 0 0 rgba(0, 0, 0, 0.3);
+  -ms-transform: rotate(270deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(315deg); }
+
+#action-btns div:last-child a {
+  background-color: #34BD86;
+  border-color: #34BD86; }
+
+#buy-ticket {
+  /*background-color: rgba(34, 202, 96, 0.88);*/
+  /*	background-image: url("http://d.fastcompany.net/multisite_files/fastcompany/poster/2014/04/3029885-poster-p-1-3029885-how-to-host-a-hackathon.jpg");
+  	background-size: cover;
+  	background-position: center;*/
+  background-image: url("http://rs271.pbsrc.com/albums/jj140/99alongway/Confetti.gif~c200");
+  border-top: solid 1px #DEDEDE;
+  border-bottom: solid 1px #DEDEDE;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 120px; }
+
+#buy-ticket h2 {
+  background-color: #FFF;
+  display: inline-block;
+  font-weight: normal; }
+
+#buy-ticket p {
+  background-color: #FFF;
+  display: inline-block; }
+
+#buy-ticket a {
+  background-color: #FFF;
+  padding: 10px 35px 46px 35px; }
+
+#buy-ticket img:last-child {
+  width: 20%; }
+
+#join {
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 90px; }
+
+#sponsors {
+  margin-top: 70px;
+  margin-bottom: 70px; }
+  #sponsors img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.5; }
+
+.sponsors-logos {
+  margin-top: 60px; }
+
+/*# sourceMappingURL=styles.css.map */

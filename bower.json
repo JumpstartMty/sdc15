@@ -1,0 +1,16 @@
+{
+  "name": "sdc15",
+  "version": "0.0.0",
+  "homepage": "https://github.com/JumpstartMty/sdc15",
+  "authors": [
+    "Diego Ponce <diegoponce@outlook.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
