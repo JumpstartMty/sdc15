@@ -26,7 +26,7 @@ header {
   margin-bottom: 30px; }
 
 #intro {
-  background-image: url("../img/party3.png");
+  background-image: url("../img/bg/sdc1.png");
   background-size: cover;
   background-position: center;
   padding-top: 30px;
@@ -91,8 +91,8 @@ ul {
   transform: rotate(315deg); }
 
 #action-btns div:last-child a {
-  background-color: #34BD86;
-  border-color: #34BD86; }
+  background-color: #EE3342;
+  border-color: #EE3342; }
 
 #buy-ticket {
   background-image: url("http://rs271.pbsrc.com/albums/jj140/99alongway/Confetti.gif~c200");
@@ -108,7 +108,9 @@ ul {
     background-color: #FFF;
     display: inline-block; }
   #buy-ticket a {
-    background-color: #FFF;
+    border: #EE3342;
+    color: #FFF;
+    background-color: #EE3342;
     padding: 10px 35px 46px 35px; }
   #buy-ticket img:last-child {
     width: 20%; }
@@ -127,3 +129,5 @@ ul {
 
 .sponsors-logos {
   margin-top: 60px; }
+
+/*# sourceMappingURL=styles.css.map */

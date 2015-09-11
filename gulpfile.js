@@ -11,4 +11,4 @@ gulp.task('compile', function(){
     .pipe(gulp.dest('css'))
 });
 
-gulp.task('default', ['comiple']);
+gulp.task('default', ['compile']);
