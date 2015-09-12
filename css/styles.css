@@ -121,7 +121,7 @@ ul {
   background-image: url("http://rs271.pbsrc.com/albums/jj140/99alongway/Confetti.gif~c200");
   border-top: solid 1px #DEDEDE;
   border-bottom: solid 1px #DEDEDE;
-  padding: 80px 0;
+  padding: 100px 0;
   margin-bottom: 120px; }
   #buy-ticket h2 {
     background-color: #FFF;
@@ -142,6 +142,12 @@ ul {
   font-size: 2rem;
   margin-top: 50px;
   margin-bottom: 90px; }
+
+#join a {
+  color: #0FA0CE; }
+
+#join a:hover {
+  color: #137A9A; }
 
 #sponsors {
   margin: 70px 0; }
