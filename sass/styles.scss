@@ -16,11 +16,11 @@ header {
 }
 
 #intro {
-	// background-image: url("");
+	// background-image: url("#");
 	// background-size: cover;
 	// background-position: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 80px;
 }
 
 .browser {
@@ -66,32 +66,36 @@ ul {
     p { font-size: 1.1em; }
 }
 
-// #agenda-border{
-//     border-top:solid 4px rgba(109, 114, 156, 0.5);
-//     border-width:4px;
-//     position: absolute;
-//     left: 0;
-//     right:90%;
-
-// }
-
-#cd-timeline > h2{
-    font-weight:100;
-    padding-bottom:40px;
-}
-
-#agenda .container::before{
+#agenda-left-border::before{
     content: '';
     position: absolute;
     top: -2px;
     left: -687px;
     height: 2px;
     width: 700px;
-    background: #353F7A;
+    background: $blue;
 }
 
-#agenda section > h2 {
+#agenda-left-border::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -687px;
+    height: 2px;
+    width: 700px;
+    background: $blue;
+}
+
+#agenda .four > h2 {
 	text-align: center;
+    font-weight:100;
+}
+
+#agenda .four > p{
+    text-align:right;
+    vertical-align:middle;
+    margin-top:20px;
+    margin-bottom:0;
 }
 
 .date p {
@@ -116,8 +120,8 @@ ul {
 }
 
 #action-btns div:last-child a {
-	background-color: #EE3342;
-	border-color: #EE3342;
+	background-color: $red;
+	border-color: $red;
 }
 
 #buy-ticket {
@@ -136,9 +140,9 @@ ul {
     p { background-color: #FFF; display: inline-block; }
 
     a { 
-        border:#EE3342;
+        border:$red;
         color:#FFF;
-        background-color: #EE3342; 
+        background-color: $red; 
         padding: 8px 35px 45px 35px;
     }
 

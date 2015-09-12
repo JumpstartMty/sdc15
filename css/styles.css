@@ -26,8 +26,8 @@ header {
   margin-bottom: 30px; }
 
 #intro {
-  padding-top: 30px;
-  padding-bottom: 30px; }
+  margin-top: 30px;
+  margin-bottom: 80px; }
 
 .browser {
   background-color: white;
@@ -65,11 +65,7 @@ ul {
   #intro-msg p {
     font-size: 1.1em; }
 
-#cd-timeline > h2 {
-  font-weight: 100;
-  padding-bottom: 40px; }
-
-#agenda .container::before {
+#agenda-left-border::before {
   content: '';
   position: absolute;
   top: -2px;
@@ -78,8 +74,24 @@ ul {
   width: 700px;
   background: #353F7A; }
 
-#agenda section > h2 {
-  text-align: center; }
+#agenda-left-border::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -687px;
+  height: 2px;
+  width: 700px;
+  background: #353F7A; }
+
+#agenda .four > h2 {
+  text-align: center;
+  font-weight: 100; }
+
+#agenda .four > p {
+  text-align: right;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 0; }
 
 .date p {
   margin-bottom: 0;
