@@ -86,9 +86,9 @@ header h1 {
   position: absolute;
   top: 0;
   left: 11px;
-  height: 91.8%;
-  width: 4px;
-  background: rgba(109, 114, 156, 0.5);
+  height: 100%;
+  width: 2px;
+  background: #353F7A;
 }
 @media only screen and (min-width: 2670px) {
   #cd-timeline {
@@ -148,15 +148,15 @@ header h1 {
 }
 .cd-timeline-img.cd-picture {
   background-color: #FFF;
-  border:solid 2px #16C780;
+  border:solid 2px #EE3342;
 }
 .cd-timeline-img.cd-movie {
   background-color: #FFF;
-  border: solid 2px #F39C12;
+  border: solid 2px #EE3342;
 }
 .cd-timeline-img.cd-location {
   background-color: #FFF;
-  border: solid 2px #F39C12;
+  border: solid 2px #EE3342;
 }
 @media only screen and (min-width: 2670px) {
   .cd-timeline-img {

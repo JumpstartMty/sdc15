@@ -26,11 +26,8 @@ header {
   margin-bottom: 30px; }
 
 #intro {
-  background-image: url("../img/bg/sdc1.png");
-  background-size: cover;
-  background-position: center;
   padding-top: 30px;
-  padding-bottom: 50px; }
+  padding-bottom: 30px; }
 
 .browser {
   background-color: white;
@@ -53,7 +50,8 @@ ul {
 
 #action-btns a {
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 8px 35px 45px 35px; }
 
 #intro-msg {
   padding: 15px 50px; }
@@ -66,6 +64,19 @@ ul {
     padding-top: 10px; }
   #intro-msg p {
     font-size: 1.1em; }
+
+#cd-timeline > h2 {
+  font-weight: 100;
+  padding-bottom: 40px; }
+
+#agenda .container::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -687px;
+  height: 2px;
+  width: 700px;
+  background: #353F7A; }
 
 #agenda section > h2 {
   text-align: center; }
@@ -111,7 +122,7 @@ ul {
     border: #EE3342;
     color: #FFF;
     background-color: #EE3342;
-    padding: 10px 35px 46px 35px; }
+    padding: 8px 35px 45px 35px; }
   #buy-ticket img:last-child {
     width: 20%; }
 
