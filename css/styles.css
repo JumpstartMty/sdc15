@@ -26,7 +26,14 @@ header {
   margin-bottom: 30px; }
 
 #intro {
-  margin-top: 30px;
+  background-image: url("../img/mountains3.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 40px;
+  padding-bottom: 80px;
   margin-bottom: 80px; }
 
 .browser {
@@ -83,7 +90,7 @@ ul {
   width: 700px;
   background: #353F7A; }
 
-#agenda .four > h2 {
+#agenda .twelve > h2 {
   text-align: center;
   font-weight: 100; }
 
@@ -158,5 +165,8 @@ ul {
 
 .sponsors-logos {
   margin-top: 60px; }
+
+.txt-center {
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
