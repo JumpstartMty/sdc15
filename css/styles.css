@@ -17,7 +17,7 @@ body {
   height: 100%; }
 
 header {
-  color: #F7D914;
+  color: #f7d914;
   height: auto; }
 
 #logo img {
@@ -35,6 +35,15 @@ header {
   padding-top: 40px;
   padding-bottom: 80px;
   margin-bottom: 80px; }
+
+#where-and-when {
+  margin-top: 40px; }
+  #where-and-when i {
+    color: #c4101f; }
+  #where-and-when p {
+    color: #555;
+    display: inline-table;
+    text-transform: uppercase; }
 
 .browser {
   background-color: white;
@@ -58,7 +67,7 @@ ul {
 #action-btns a {
   display: block;
   margin: 0 auto;
-  padding: 8px 35px 45px 35px; }
+  padding: 8px 35px 45px; }
 
 #intro-msg {
   padding: 15px 50px; }
@@ -67,8 +76,9 @@ ul {
   #intro-msg img {
     display: block;
     margin: 0 auto;
-    width: 15%;
-    padding-top: 10px; }
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 15px; }
   #intro-msg p {
     font-size: 1.1em; }
 
@@ -92,13 +102,24 @@ ul {
 
 #agenda .twelve > h2 {
   text-align: center;
-  font-weight: 100; }
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #555555; }
 
 #agenda .four > p {
   text-align: right;
   vertical-align: middle;
   margin-top: 20px;
   margin-bottom: 0; }
+
+#agenda-details div:first-child {
+  border: solid 1px #c4101f;
+  color: #7e0a14; }
+
+#agenda-details div p {
+  margin-bottom: 0;
+  margin: 15px 0 15px 0; }
 
 .date p {
   margin-bottom: 0;
@@ -126,22 +147,23 @@ ul {
 
 #buy-ticket {
   background-image: url("http://rs271.pbsrc.com/albums/jj140/99alongway/Confetti.gif~c200");
-  border-top: solid 1px #DEDEDE;
-  border-bottom: solid 1px #DEDEDE;
+  border-top: solid 1px #dedede;
+  border-bottom: solid 1px #dedede;
   padding: 100px 0;
+  margin-top: 120px;
   margin-bottom: 120px; }
   #buy-ticket h2 {
-    background-color: #FFF;
+    background-color: #fff;
     display: inline-block;
     font-weight: normal; }
   #buy-ticket p {
-    background-color: #FFF;
+    background-color: #fff;
     display: inline-block; }
   #buy-ticket a {
     border: #EE3342;
-    color: #FFF;
+    color: #fff;
     background-color: #EE3342;
-    padding: 8px 35px 45px 35px; }
+    padding: 8px 35px 45px; }
   #buy-ticket img:last-child {
     width: 20%; }
 
@@ -151,13 +173,17 @@ ul {
   margin-bottom: 90px; }
 
 #join a {
-  color: #0FA0CE; }
+  color: #0fa0ce; }
 
 #join a:hover {
-  color: #137A9A; }
+  color: #137a9a; }
 
 #sponsors {
   margin: 70px 0; }
+  #sponsors h3 {
+    font-family: 'Lato', sans-serif;
+    color: #555;
+    font-weight: bold; }
   #sponsors img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
