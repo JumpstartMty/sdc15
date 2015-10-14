@@ -26,8 +26,8 @@ header {
   margin-bottom: 30px; }
 
 #intro {
-  background-image: url("../img/mountains3.png");
   height: 100%;
+  background-color: #353F7A;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
