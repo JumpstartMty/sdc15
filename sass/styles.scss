@@ -196,3 +196,9 @@ ul {
 .txt-center {
   text-align: center;
 }
+
+@media (min-width: 700px) {
+  #action-btns a:first-child{
+    display: none;
+  }
+}
